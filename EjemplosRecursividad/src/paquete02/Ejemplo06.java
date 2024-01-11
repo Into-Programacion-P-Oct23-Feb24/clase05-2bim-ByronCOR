@@ -15,12 +15,12 @@ public class Ejemplo06 {
         // [0][0]
         // [1][1]
         // hasta el final
-        
+        //se llama a la funcion obtenerSuma y se le envia dos parametros arreglos unidimensionales
         for (int i = 0; i < valor1.length; i++) {
             System.out.printf("El valor es: %d\n", 
                     obtenerSuma(valor1[i], valor2[i]));
         }
-        
+        // se declara una variable y se le asigna el valor del arreglo
         for (int i = 0; i < valor1.length; i++) {
             int num1 = valor1[i];
             int num2 = valor2[i];
